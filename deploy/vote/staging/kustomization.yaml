@@ -10,8 +10,8 @@ replicas:
   count: 7
 images:
 - name: schoolofdevops/vote
-  newName: dopsdemo/vote
-  newTag: main-7c20e93c-1619242117 # {"$imagepolicy": "flux-system:vote:tag"}
+  newName: kubehack.azurecr.io/whatthehackmsft/content-web
+  newTag: 1.0.1 # {"$imagepolicy": "flux-system:vote:tag"}
 namespace: instavote
 commonLabels:
   project: instavote
